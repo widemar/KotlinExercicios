@@ -8,5 +8,5 @@ fun main() {
 
     val troco = dinheiroRecebido - precoUnitario * quantidadeComprada
 
-    print("Troco = ${troco.format(2)}")
+    print("Troco = ${troco.format(2)}".uppercase())
 }
