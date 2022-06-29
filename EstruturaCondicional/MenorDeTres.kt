@@ -6,14 +6,7 @@ fun main() {
     print("Terceiro valor: ")
     val terceiroValor = readln().toInt()
 
-    val menorValor =
-        if (primeiroValor < segundoValor && primeiroValor < terceiroValor) {
-            primeiroValor
-        } else if (segundoValor < terceiroValor) {
-            segundoValor
-        } else {
-            terceiroValor
-        }
+    val menorValor = minOf(primeiroValor, segundoValor, terceiroValor)
 
     print("Menor = $menorValor".uppercase())
 }
